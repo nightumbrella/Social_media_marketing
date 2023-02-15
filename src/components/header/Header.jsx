@@ -5,7 +5,7 @@ import Home from "../home/Home";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header base">
       <nav className="navbar flex space__between">
         <div className="navbar__left flex">
           <img src={logo} alt="logo" className="navbar__logo"/>
@@ -29,7 +29,6 @@ const Header = () => {
           <button className="btn__watch">Get started free</button>
         </div>
       </nav>
-
       <Home />
     </div>
   );

@@ -1,6 +1,10 @@
 .header{
     padding: 21px 0;
 }
+.navbar{
+    
+    margin-bottom: 150px;
+}
 .navbar__logo{
     margin-right: 80px;
 }
@@ -14,6 +18,7 @@ margin-right: 33px;
     margin-right: 55px;
     font-size: 16px;
 }
+
 
 
 

@@ -1,0 +1,56 @@
+.cat{
+    background-color: white;
+    padding-top: 50px;
+}
+
+.cat__head__subtitle{
+    width: 577px;
+    font-family: "Roboto", sans-serif;
+}
+.cat__head{
+    margin-bottom: 50px;
+}
+.cat__grid{
+    grid-template-columns: repeat(3,1fr);
+    gap: 22px;
+    margin-bottom: 82px;
+}
+.cat__grid__items{
+    border: 2px solid #808080;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.cat__grid__items img{
+    margin-bottom: 20px;
+}
+.cat__grid__items h3{
+    margin-bottom: 30px;
+    font-size: 19px;
+    font-family: "CLashDisplay";
+}
+.cat__grid__items p{
+    margin-bottom:27px;
+}
+.cat__grid__items  button{
+    align-items: center;
+}
+.cat__grid__items .arrow{
+    transform: translateY(1.5px);
+    margin-left: 6px;
+}
+.cat__grid__subtitle{
+    width: 352px;
+}
+.social__user{
+    margin-bottom: 80px;
+}
+.social__user> div p, .social__follow > div p{
+    width: 605px;
+    margin-bottom: 22px;
+}
+.social__user > div h2, .social__follow > div h2{
+    margin-bottom: 22px;
+}
+.social__follow{
+    padding-bottom: 115px;
+}

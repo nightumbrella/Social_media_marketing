@@ -1,12 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @font-face {
+  font-family: "ClashDisplay";
   src: url(./fonts/ClashDisplay-Light.woff) format(woff);
-  font-family: 500;
+  font-weight: 500;
 }
 @font-face {
+  font-family: "ClashDisplay";
   src: url(./fonts/ClashDisplay-Bold.woff) format(woff);
-  font-family: 900;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "ClashDisplay";
+  src: url(./fonts/ClashDisplay-Semibold.woff) format(woff);
+  font-weight: 800;
 }
 *{
   padding: 0;
@@ -17,11 +24,18 @@
   font-family:"Inter", sans-serif;
 
 }
+body{
+  background-color: #b1b1b1;
+
+}
 .container{
   width: 1440px;
   margin: 0 auto;
-  padding: 0px 70px;
   background-color: #F1DFD5;
+}
+.base{
+  padding-left:70px;
+  padding-right:70px;
 
 }
 .flex{
@@ -51,6 +65,9 @@ button{
 .icon{
   cursor: pointer;
 }
-
+h2{
+  font-family: "ClashDisplay";
+  font-size: 40px;
+}
 
 
