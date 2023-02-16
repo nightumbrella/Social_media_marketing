@@ -39,7 +39,7 @@ const Category = () => {
 
         <div className="cat__grid__items">
           <img src={social} alt="digital__marketing" />
-          <h3>Digital marketing plan</h3>
+          <h3>Social media strategy</h3>
           <p className="cat__grid__subtitle">
             Lorem ipsum dolor sit amet consectetur. Cras feugiat massa
             pellentesque tortor. Sed massa sit vehicula in ut id donec
@@ -52,7 +52,7 @@ const Category = () => {
 
         <div className="cat__grid__items">
           <img src={search} alt="digital__marketing" />
-          <h3>Digital marketing plan</h3>
+          <h3>Search engine optimization</h3>
           <p className="cat__grid__subtitle">
             Lorem ipsum dolor sit amet consectetur. Cras feugiat massa
             pellentesque tortor. Sed massa sit vehicula in ut id donec

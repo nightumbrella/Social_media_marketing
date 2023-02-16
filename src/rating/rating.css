@@ -1,0 +1,14 @@
+.rating{
+    padding: 40px 120px;
+    text-align: center;
+}
+.rating p{
+    display: flex;
+    flex-direction: column;
+}
+.rating p span{
+    font-family: "ClashDisplay";
+    font-size: 30px;
+    font-weight: 800;
+    color: #424242;
+}

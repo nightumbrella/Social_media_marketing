@@ -11,7 +11,7 @@
     margin-bottom: 50px;
 }
 .cat__grid{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit,1fr);
     gap: 22px;
     margin-bottom: 82px;
 }

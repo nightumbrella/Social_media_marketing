@@ -1,0 +1,49 @@
+.promote {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.promote__video__player {
+  margin-bottom: 130px;
+}
+.promote__video {
+  position: relative;
+}
+.promote__video .promote__image {
+  position: absolute;
+  top: 19%;
+  left: 18%;
+}
+.promote__btn {
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid black;
+  margin-left: 6px;
+  align-items: center;
+  position: absolute;
+  left: 140px;
+  bottom: 30px;
+}
+.promote h4,
+h2 {
+  margin-bottom: 22px;
+  font-family: "ClashDisplay";
+}
+.promote p {
+  width: 605px;
+  margin-bottom: 22px;
+}
+
+/* !QUestion */
+.question {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+.question h4 {
+  font-size: 20px;
+  font-family: "ClashDisplay";
+}
+.question p {
+  font-size: 16px;
+}
+/* !QUestion */
